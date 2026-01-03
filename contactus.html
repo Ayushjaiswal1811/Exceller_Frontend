@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us</title>
+</head>
+<body>
+  <form>
+    <label for="name">Name</label>
+    <input name="name" type="text" placeholder="Enter Your name"><br><br>
+    <label for="email">Email</label>
+    <input name="email" type="email" placeholder="Enter Your Email"><br><br>
+    <label for="Mobile">Mobile</label>
+    <input name="Mobile" type="number" placeholder="Enter Your Number"><br><br>
+    <label for="message">Message</label>
+    <!-- <input name="message" type="text" placeholder="Enter Your Message"> -->
+    <textarea name="message" placeholder="Enter your Message"></textarea><br><br>
+    <label for="sport">SELECT THE SPORTS YOU PLAY</label><br><br>
+    <input type="checkbox" id="soccer" name="sport" value="soccer">
+    <label for="soccer">SOCCER</label>
+    <input type="checkbox" id="cricket" name="sport" value="cricket">
+    <label for="cricket">CRICKET</label>
+    <input type="checkbox" id="volley" name="sport" value="volley">
+    <label for="volley">VOLLEYBALL</label>
+    <input type="checkbox" id="other" name="sport" value="other">
+    <label for="other">OTHER</label><br><br>
+    <fieldset>
+      <legend>Select your state :</legend>
+    
+    <input type="radio" name="State" id="MH" value="Maharashtra">
+    <label for="Maharashtra">Maharashtra</label><br><br>
+    
+    <input type="radio" name="State" id="Mp" value="MadhyaPradesh">
+    <label for="Maharashtra">MadhyaPradesh</label><br><br>
+    
+    <input type="radio" name="State" id="RJ" value="Rajasthan">
+    <label for="Maharashtra">Rajasthan</label><br><br>
+    </fieldset>
+
+    <label for="District">Choose your District</label>
+    <select name="District" id="District">
+      <option value="nagpur">Nagpur</option>
+      <option value="wardha">Wardha</option>
+      <option value="amravati">Amravati</option>
+    </select><br><br>
+    <button>Submit</button>
+  </form>
+</body>
+</html>

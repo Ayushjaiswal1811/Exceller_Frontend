@@ -1,0 +1,52 @@
+
+.Container{
+  border-radius: 20px;
+  color: rgb(85, 81, 79);
+  background-color: azure;
+  width: 60%;
+  /* display: flex; */
+  justify-content: center;
+  height:100dvh;
+}
+.center-placeholder{
+  text-align: center;
+}
+.task{
+  display:flex;
+  background-color: cadetblue;
+  height: auto;
+  border-radius: 20px;
+}
+.card{
+  border-radius: 20px;
+  background-color: rgb(88, 182, 240);
+  color: black;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  width:auto;
+  height: auto;
+}
+.message{
+  margin: 20%;
+  border-radius: 40px;
+  align-content: center;
+  align-items: center;
+  display: flex;
+}
+.button-done{
+  border-radius: 20px;
+  /* background-color: rgb(7, 116, 226); */
+  align-items: center;
+  align-content: center;
+  /* padding-left: 50px; */
+}
+.but{
+  color: black;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  width: auto;
+  background-color: blue;
+  border-radius: 30px;
+}

@@ -1,0 +1,53 @@
+header{
+  border-radius:25px;
+  background-color: white;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+html{
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 20%;
+}
+body{
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+button{
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+button:active{
+  box-shadow: #f30761;
+  transform: scale(1.1);
+}
+button:hover{
+  background-color: aqua;
+  box-shadow: #f30761;
+}
+button::backdrop{
+  color: #0cee1f;
+}
+.buttoncenter{
+  margin-top: 3%;
+  margin-left: 40%;
+}
+.whitebutton{
+  background-color: rgb(243, 168, 70);
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+}
+.orangebutton{
+  background-color: rgb(244, 93, 5);
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+}
+.int{
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+  padding: 20px;
+}

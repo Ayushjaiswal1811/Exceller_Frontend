@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  background-color: white;
+}
+.whitebutton{
+  background-color: rgb(243, 168, 70);
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+}
+.orangebutton{
+  background-color: rgb(244, 93, 5);
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+}
+.calculator{
+background: black;
+padding: 20px;
+border-radius: 10px;
+}
