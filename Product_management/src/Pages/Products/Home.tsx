@@ -61,7 +61,7 @@ localStorage.setItem("products",JSON.stringify(
               <TableCell align="right">{user.category}</TableCell>
               <TableCell align="right">{user.price}</TableCell>
               <TableCell align="right"><img src={user.image} alt={user.name}></img></TableCell>
-              <TableCell align="right"><Link to={'/edit/${ExistingProduct.id}'}>Edit</Link></TableCell>
+              <TableCell align="right"><Link to={`/edit/${user.id}`}>Edit</Link></TableCell>
               <TableCell align="right"><Button 
                                         variant="contained"
                                         onClick={()=>deleteProduct(user.id)}

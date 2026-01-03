@@ -10,8 +10,6 @@ function AddProduct() {
   })
 
 const handleChange = (e:React.ChangeEvent<HTMLInputElement>) =>{
-  console.log(e);
-  
   const { name , value } = e.target
   setProduct(
     {
